@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap");
+
+.App {
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+  /*font-family: "Roboto", sans-serif;*/
+  background-color: #ffa500;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.header {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 30px;
+  margin: 20px;
+}
+.container {
+  padding-top: 10%;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.digimon-list {
+  padding-top: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.subtitle1 {
+  text-transform: uppercase;
+  font-size: 2px;
+  width: 100%;
+  background-color: rgb(0, 0, 205);
+  margin-left: auto;
+}
+
+.digimon-card {
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.digimon-card:hover {
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  box-shadow: 8px 30px 50px rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease;
+}
+
+.digimon-image {
+  max-width: 100%;
+  height: auto;
+}
+.pagination {
+  margin-bottom: 5%;
+}
